@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './component/style.css';
 import reportWebVitals from './reportWebVitals';
+import {Calculator} from './component/Calculator';
+
+/* import App from './App';
+import Demo from './component/Demo';
+import {ToDoComponent} from './component/ToDoComponent';  //giving{}is for named component to avoid changing the name of the component
+import FuntionComponent from './component/FuntionComponent'; */
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Calculator/> 
+
+    {/* <App/> 
+    <ToDoComponent/>
+    <Demo/> */}  
+
+    {/*<ToDoComponent name="John"/>       passing name or any property to the component using props. Here we can pass the data from the parent (index.js)to the component in a uni directional*/}
+    {/*<FuntionComponent name="Chris" age={36}/>  numeric values are puted inside {}for typescript */}
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

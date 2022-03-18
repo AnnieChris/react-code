@@ -1,0 +1,36 @@
+.test{
+    color: blue;
+}
+
+.demo{
+    background-color: green;
+    color: white;
+}
+.calcContents{
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+
+    background-color: rgb(131, 162, 163);
+
+}
+.calcContents h1{
+    text-align: center;
+}
+.inputStyle{
+    background-color: rgb(243, 225, 243);
+    padding: 10px;
+    margin: 10px;
+    width: 10em;
+}
+.calcbtn{
+    background-color:rgb(90, 63, 90);
+    padding: 10px;
+    color: bisque;
+
+}
+
+
+#resultDiv{
+    padding: 10px;
+}
