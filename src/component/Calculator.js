@@ -24,8 +24,7 @@ class Calculator extends React.Component       //React.component is the parent o
     }
    
     render() 
-    {
-        
+    {   
         return(
             <div className='calcContents'>
                 <h1>Calculator Using Class</h1>
