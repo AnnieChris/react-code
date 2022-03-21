@@ -5,7 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './component/style.css';
 
-//import {Calculator} from './component/Calculator';
+import {Calculator} from './component/Calculator';
 import {ToDoComponent} from './component/ToDoComponent';
 import Demo from './component/Demo';
 import CalculatorUsingHook from './component/CalculatorUsingHook';
@@ -16,6 +16,7 @@ import FuntionComponent from './component/FuntionComponent'; */
 
 ReactDOM.render(
   <React.StrictMode>
+      <Calculator/>
       <CalculatorUsingHook/>
         
       {/* <Demo/>

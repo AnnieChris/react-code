@@ -27,24 +27,30 @@ class Calculator extends React.Component       //React.component is the parent o
     {   
         return(
             <div className='calcContents'>
-                <h1>Calculator Using Class</h1>
+                <h1>Calculator Using Class Component</h1>
 
-
-                <label htmlFor ="fnum"> Enter First Number : </label>
-                <input type="text" name="firstnum" id="fnum" className="inputStyle" value={this.state.num1} onChange={ (eve) => { this.setState({num1:eve.target.value}) } }/>
-                <br></br>
-
-                <label htmlFor ="snum"> Enter Second Number : </label>
-                <input type="text" name="secondnum" id="snum" className="inputStyle" value={this.state.num2} onChange={ (eve) => { this.setState({num2:eve.target.value }) } }/>
-                <br></br>
-
-                
-
-                <button className='calcbtn' onClick={()=>{this.calculation()}} value="calculate">Calculate</button>
-                
-                <div id="resultDiv">
-                </div>
-                
+                <table>
+                    <tr>
+                        <td><label htmlFor ="fnum"> Enter First Number : </label></td>
+                        <td><input type="text" name="firstnum" id="fnum" className="inputStyle" value={this.state.num1} onChange={ (eve) => { this.setState({num1:eve.target.value}) } }/></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><label htmlFor ="snum"> Enter Second Number : </label></td>
+                        <td><input type="text" name="secondnum" id="snum" className="inputStyle" value={this.state.num2} onChange={ (eve) => { this.setState({num2:eve.target.value }) } }/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button className='calcbtn' onClick={()=>{this.calculation()}} value="calculate">Calculate</button></td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td><div id="resultDiv"></div></td>
+                    </tr>
+                    
+                    
+                </table>
                 
             </div>
         )

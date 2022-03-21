@@ -31,7 +31,7 @@ function CalculatorUsingHook() {
         
     return (
         <div class="calcContents">
-            <h1>Calculator Using Hooks</h1>
+            <h1>Calculator Using React Hooks</h1>
             <table>
                 <tr>
                     <td><label>Enter First Number</label></td>
