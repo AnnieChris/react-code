@@ -10,7 +10,6 @@
     margin: auto;
     width: 70%;
     padding: 20px;
-
     background-color: rgb(131, 162, 163);
 
 }
@@ -29,8 +28,30 @@
     color: bisque;
 
 }
-
-
 #resultDiv{
     padding: 10px;
+}
+.calcContents table{
+    margin: auto;
+    max-width: 100%;
+}
+.calcContents button{
+    padding: 10px;
+    margin: 5px 10px;
+    width: 8em;
+    background-color: darkseagreen;
+}
+.calcContents input{
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: gainsboro;
+
+}
+
+.calcContents button:hover{
+    background-color:darksalmon;
+    cursor:pointer;
+}
+.calcContents input:hover, .calcContents input:focus{
+    background-color: honeydew;
 }
