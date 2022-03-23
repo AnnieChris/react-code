@@ -5,29 +5,14 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import './component/style.css';
 
-import {Calculator} from './component/Calculator';
-import {ToDoComponent} from './component/ToDoComponent';
-import Demo from './component/Demo';
-import CalculatorUsingHook from './component/CalculatorUsingHook';
-/* import App from './App';
-  //giving{}is for named component to avoid changing the name of the component
-import FuntionComponent from './component/FuntionComponent'; */
 
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-      <Calculator/>
-      <CalculatorUsingHook/>
-        
-      {/* <Demo/>
-      <ToDoComponent/>
-      <App/> 
-      <Calculator/> 
-      */}  
 
-    {/*<ToDoComponent name="John"/>       passing name or any property to the component using props. Here we can pass the data from the parent (index.js)to the component in a uni directional*/}
-    {/*<FuntionComponent name="Chris" age={36}/>  numeric values are puted inside {}for typescript */}
-    
+  <App/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

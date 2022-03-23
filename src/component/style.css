@@ -1,3 +1,6 @@
+body{
+    background-color: lightgray;
+}
 .test{
     color: blue;
 }
@@ -8,7 +11,7 @@
 }
 .calcContents{
     margin: auto;
-    width: 70%;
+    width: 60%;
     padding: 20px;
     background-color: rgb(131, 162, 163);
 
@@ -55,3 +58,74 @@
 .calcContents input:hover, .calcContents input:focus{
     background-color: honeydew;
 }
+
+/* User detail form styles*/
+
+.form_contents{
+    background-color: rgb(209, 191, 224);
+    color: midnightblue;
+    margin: auto;
+    width: 70%;
+}
+
+.form_contents h1{ text-transform: uppercase;}
+
+.form_contents form{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.form_contents input, textarea{
+    background-color: rgb(216, 214, 218);
+    width: 20em;
+    padding: 10px;
+    margin: 10px;
+}
+.form_contents select{
+    width: 20em;
+    text-align: center;
+    color:darkblue;
+ 
+}
+.form_contents input:hover, textarea:hover, select:hover{
+    background-color: rgb(247, 233, 244);
+
+}
+
+.form_contents input:focus, textarea:focus{
+    background-color:rgb(245, 250, 249);
+}
+.form_contents input[type=button]{
+    background-color: rgb(121, 75, 116);
+    width: 10em;
+    color: rgb(233, 175, 211);
+    text-transform: uppercase;
+    margin: 20px;
+    border-radius: 10px;
+}
+input[type=button]:hover{
+    background-color: rgb(101, 117, 117);
+    cursor: pointer;
+    color: beige;
+    box-shadow: 2px 1px 3px;
+}
+
+#userdetailsrenderDiv{
+    background-color: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: left;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    color:rgb(63, 33, 71);
+}
+
+.formresult{
+    font-size: small;
+}
+.formresult h1{text-align: center;
+color: brown;
+text-transform: uppercase;}
