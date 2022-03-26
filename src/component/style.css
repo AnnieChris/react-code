@@ -1,5 +1,5 @@
 body{
-    background-color: lightgray;
+    background-color: rgb(235, 232, 232);
 }
 .test{
     color: blue;
@@ -129,3 +129,51 @@ input[type=button]:hover{
 .formresult h1{text-align: center;
 color: brown;
 text-transform: uppercase;}
+
+/* Login Form Styles */
+
+.loginform form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    width: 70%;
+    margin: auto;
+}
+.loginform h1{ 
+    color: darkmagenta;
+    text-transform: uppercase;
+}
+.loginform input, .loginform label, .loginform button {
+    padding: 10px; 
+    border-radius: 5px;
+    display: inline-flex;
+}
+.loginform input{
+    max-width: 100%;
+    
+}
+
+.loginform button {
+    background-color:indigo;
+    border-radius: 15px;
+    margin: 50px 0px;
+    padding: 15px 30px;
+    color: whitesmoke;
+}
+
+.loginform button a{    
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+input:hover{
+    background-color: rgb(233, 237, 241);
+}
+button:hover{
+    background-color:darkslateblue;
+    cursor: pointer;
+}
+
+.loginsucess h1{ text-transform: capitalize;}
